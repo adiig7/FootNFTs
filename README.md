@@ -1,13 +1,10 @@
-# Sample Hardhat Project
+# FootNFTs
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+This smart contract stores the metadata of the NFT on the chain itself. It enables the user to interact with the NFT from the smart contract.
+A user can update the ranking of the Football player by interacting with the metadata from the smart contract functions.
 
-Try running some of the following tasks:
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+# Smart Contract Deployment
+
+This contract has been deployed on Mumbai Testnet.
+Deployment Link: https://mumbai.polygonscan.com/address/0x595ED8547d82fd0F9916eC4eF61C7c001652bb60
